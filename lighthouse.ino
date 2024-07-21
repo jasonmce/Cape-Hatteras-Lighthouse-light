@@ -15,7 +15,7 @@ Uses a light sensor determine when to animate.
 #include <Adafruit_NeoPixel.h>
 
 // Number of NeoPixels in our light loop.
-#define PIXEL_COUNT 16
+#define PIXEL_COUNT 21
 
 // Digital IO pin connected to the NeoPixels.
 #define PIXEL_PIN 10
@@ -109,7 +109,7 @@ void turnOffLights() {
 }
 
 bool pauseDuringDaylight() {
-  if (isLightOut()) {
+  if (isDaylightOut()) {
     turnOffLights();
     delay(1000);
     return true;
