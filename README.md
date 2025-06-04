@@ -3,7 +3,7 @@
 
 # 🗼 Cape Hatteras Lighthouse Light
 
-This project recreates the iconic Cape Hatteras Lighthouse light as a 3D-printed model, complete with an Arduino-driven animation that mimics the real-world light signature of the actual lighthouse. At dusk a string of NeoPixels illuminate the lighthouse with a rotating beam effect to help my sister park &#128515;.
+This project recreates the iconic Cape Hatteras Lighthouse light as a 3D-printed model, complete with an Arduino-driven animation that mimics the real-world light signature of the actual lighthouse. At dusk a string of NeoPixels illuminate the lighthouse with a rotating beam effect - to help my sister park &#128515;.
 
 It is an example of a solar-powered Lighthouse Light, with a weatherproof enclosure, a switch to turn it on and off, and a solar charge controller to keep the battery charged.  It is meant to be easy to extend for creating your own lighthouse light model and custom signature.
 
@@ -12,13 +12,13 @@ It is an example of a solar-powered Lighthouse Light, with a weatherproof enclos
 My sister asked for a Cape Hatteras lighthouse garden decoration for her birthday.  Making the body was a fun project, but illuminating it was the part that interested me.  It was a great experience in what could go wrong with distantly deployed deliverables.
 
 Evolutions in this project:
-- Larger battery to survive multiple days of darkness - 10K mAh
+- Upgraded to a **10K mAh battery** to survive multiple days of darkness
 - Stronger housing.  I originally used [Thingiverse myst lighthouse](https://www.thingiverse.com/thing:3164021) as the light fixture but it proved brittle when:
     - branches hit it
     - wind toppled the structure
-- Custom light model to better match the Cape Hatteras light
-- External power switch makes it easier to:
-    - Reset the circuit if low voltage causes arduino issues
+- Designed a custom light model to better match the Cape Hatteras light
+- Added an external power switch to:
+    - Reset the circuit if low voltage causes Arduino issues
     - Ensure a solid charge after prolonged darkness
 ---
 
@@ -57,7 +57,7 @@ Requirements:
 - Solar panel
 - Weather proof switch
 - Solar charge controller
-- LiPo battery - Mine is a whopping 10k mAh to outlast a few dark or rainy days
+- LiPo battery - Mine is a whopping 10K mAh to outlast a few dark or rainy days
 
 ---
 
@@ -95,7 +95,7 @@ Requirements:
 - Connect the NeoPixel strip to 5V, GND, and a digital pin (e.g., D10) on your Arduino.
 - Connect the light sensor to an analog pin (e.g., A9) on your Arduino.
 - Use the `base_ring_for_switch.stl` if you want external access to the power or mode switch
-    It will control the connection between the solar controller output and the arduino.
+    It will control the connection between the solar controller output and the Arduino.
 
 ---
 
