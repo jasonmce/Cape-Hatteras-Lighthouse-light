@@ -99,6 +99,20 @@ Requirements:
 
 ---
 
+## 🔧 Future Enhancements
+
+The following features are under consideration to improve usability, reliability, and functionality:
+
+- **Adjustable Darkness Threshold**  
+  Integrate a rheostat to allow users to fine-tune the ambient light threshold that triggers the lighthouse light. This would offer greater flexibility across varying environments and seasons.
+
+- **Improved NeoPixel Strip Mounting**  
+  Add structural clips around the top of the core to provide secure, mechanical support for the NeoPixel strip. This will improve long-term durability and reduce dependence on adhesive backing.
+
+- **Inspection Mode via Wi-Fi Access Point**  
+  Introduce an "Inspection" button that temporarily enables a local Wi-Fi Access Point. When connected, users would be presented with an HTML interface displaying real-time sensor values, status indicators, and system diagnostics for troubleshooting and fine-tuning.
+---
+
 ## 📜 License
 
 MIT License. Use and remix freely, and credit is appreciated.
