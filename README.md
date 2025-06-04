@@ -35,7 +35,7 @@ Evolutions in this project:
 
 ## 🖨️ 3D Printed Parts
 
-All STL files can be found in the `models/` directory:
+All STL files can be found [On Thingiverse](https://www.thingiverse.com/thing:7056934) and in the `models/` directory:
 
 - `roof.stl` – Top cap for the lighthouse.
 - `lens.stl` – Translucent lens for the light animation.
